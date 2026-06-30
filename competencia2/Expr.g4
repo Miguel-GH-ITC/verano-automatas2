@@ -7,6 +7,6 @@ expr: EOF;
 IF: 'if';
 ID: [a-zA-Z]+;
 MAYOR_QUE: '>';
-NUM: [0-9]+
+NUM: [0-9]+;
 WS: [ \t\r\n]+ -> skip;
 
